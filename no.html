@@ -79,6 +79,10 @@
         yesButton.addEventListener('click', () => {
             window.location.href = 'yes-response.html';
         });
+        video.addEventListener('pause', () => {
+        video.play();
+    });
+        video.controls = false;
     </script>
 </body>
 </html>
